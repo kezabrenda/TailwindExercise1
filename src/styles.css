@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .about-grid-div {
+        @apply grid grid-cols-4 sm:grid-cols-4 bg-blue-800 text-white font-bold text-center;
+    }
+    .about-cols {
+        @apply col-span-1 h-12 border-none pl-20 pt-2;
+    }
+    .h3 {
+        @apply font-bold text-gray-700 text-2xl text-center mb-2;
+    }
+    .image-circle-div {
+      @apply rounded-full rounded md:rounded-full h-24 w-24 ml-8 mb-2;
+    }
+    .card-div {
+        @apply ml-14 mr-10 p-4 rounded-3xl py-6 px-12 bg-gray-200 my-auto;
+    }
+    .btn-div {
+        @apply text-black bg-gray-500 cursor-pointer p-2;
+    }
+    .contacts-div {
+        @apply mt-16 mb-8 box-border ml-16 mr-14 pb-10 border-4 border-blue-800 bg-opacity-50 text-center bg-red-200 bg-opacity-60;
+    }
+    .contacts-sub-div {
+        @apply bg-other1-200 bg-opacity-60 h-12 text-left text-2xl m-4 pl-14 pr-14 pb-48;
+    }
+    .end-div {
+        @apply grid grid-cols-2 gap-10 mb-4 ml-8 mr-8 pt-8 pb-4 text-white text-2xl bg-blue-800 bg-opacity-50;
+    }
+  }
