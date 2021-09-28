@@ -22,7 +22,7 @@
         @apply text-black bg-gray-500 cursor-pointer p-2;
     }
     .contacts-div {
-        @apply mt-16 mb-8 box-border ml-16 mr-14 pb-10 border-4 border-blue-800 bg-opacity-50 text-center bg-red-200 bg-opacity-60;
+        @apply mt-16 mb-8 box-border ml-12 mr-10 pb-10 border-4 border-blue-800 bg-opacity-50 text-center bg-red-200 bg-opacity-60;
     }
     .contacts-sub-div {
         @apply bg-other1-200 bg-opacity-60 h-12 text-left text-2xl m-4 pl-14 pr-14 pb-48;
